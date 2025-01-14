@@ -1,0 +1,123 @@
+body{
+    background-color: #000000;
+}
+
+
+h1{
+    color: #11e1ff;
+    font-size: 13mm;
+
+}
+
+.hlink:visited{
+
+    background-color: #11e1ff;
+    padding-left: 4mm ;
+    padding-right: 4mm ;
+    padding-top: 2mm ;
+    padding-bottom: 2mm ;
+    color: #000000;
+    font-size: 5mm;
+    text-decoration: none;
+}
+.hlink:link{
+    background-color: #11e1ff;
+    padding-left: 4mm ;
+    padding-right: 4mm ;
+    padding-top: 2mm ;
+    padding-bottom: 2mm ;
+    color: #000000;
+    font-size: 5mm;
+    text-decoration: none;
+}
+.hlink:hover{
+    background-color: #11e1ff;
+    color: #000000;
+    font-size: 7mm;
+    text-decoration: none;
+}
+
+
+#bheader{
+    color: #36ffaf;
+    font-size: 50px;
+    vertical-align: bottom;
+}
+td{
+    color: #36daff;
+    font-size: 25px;
+}
+th{
+    color: #f0f8ff;
+    font-size: 30px;
+}
+#copyright{
+    color: #f0f8ff;
+    font-size: 15px;
+}
+h2{
+    color: #36daff;
+    font-size: 35px;
+}
+.so:hover{
+    width: 20%;
+}
+
+
+
+
+
+
+.rating {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 10mm;
+    position: relative;
+}
+
+
+.rating > input {
+    display: none;
+}
+
+.rating > label {
+    width: 40px;
+    background-image: url("img/wstar.png");
+    background-repeat: no-repeat;
+    background-size: 76%;
+
+}
+
+.rating > input:checked ~ label,
+.rating > input:checked ~ label ~ label {
+    background-image: url("img/gstar.png");
+}
+
+.rating > input:not(:checked) ~ label:hover,
+.rating > input:not(:checked) ~ label:hover ~ label {
+    background-image: url("img/gstar.png");
+}
+
+.formin{
+    width: 60mm;
+    height: 7mm;
+    font-size: 20px;
+    background-color: #eae9e9;
+}
+.lform{
+    margin-top: 13%;
+    margin-left: 37%;
+    background-color: rgba(15, 52, 75, 0.88);
+    color: #ffffff;
+    width: 108mm;
+    font-size: 25px;
+}
+.formbut{
+    width: 25mm;
+    height: 9mm;
+    font-size: 20px;
+    background-color: #d0d0d0;
+}
+
+

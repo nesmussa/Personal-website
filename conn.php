@@ -1,0 +1,9 @@
+<?php
+$hname='localhost';
+$uname='root';
+$pass='';
+$db='nes_web';
+$con=mysqli_connect($hname,$uname,$pass,$db);
+if(!$con){
+    die(mysqli_error());
+}
